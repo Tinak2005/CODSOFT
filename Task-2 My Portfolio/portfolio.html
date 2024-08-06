@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="leftnav">
+            My Portfolio
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="maincontent">
+        <div class="leftcontent">
+            <div class="firstline">
+                Hi,My name is <span class="name">Tina</span></div>
+            <div class="secondline">
+                and I am a passionate
+            </div>
+            <div class="anime"><span id="element"></span></div>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">View GitHub</button>
+            </div>
+        </div>
+
+        <div class="rightcontent">
+            <img src="assets/devpng.png" alt="image">
+        </div>
+
+    </div>
+    <div class="seperation"></div>
+    <div class="skillsection">
+        <div class="head">My Skill Proficiency</div>
+        <div class="skills">
+            HTML : <div class="skill">
+                <div class="fill fill1"></div>
+            </div>
+            CSS : <div class="skill">
+                <div class="fill fill2"></div>
+            </div>
+            JavaScript : <div class="skill">
+                <div class="fill fill3"></div>
+            </div>
+            Figma : <div class="skill">
+                <div class="fill fill4"></div>
+            </div>
+            Bootstrap: <div class="skill">
+                <div class="fill fill5"></div>
+            </div>
+            C programming : <div class="skill">
+                <div class="fill fill6"></div>
+            </div>
+            C++: <div class="skill">
+                <div class="fill fill7"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="seperation"></div>
+    <div class="contactsection">
+        <h1>Contact me for work/general Enquiries </h1>
+        <div class="details">
+            <div class="name">
+                <h4>Name</h4>
+                <input type="text" placeholder="Your Name" id="name" class="thin">
+            </div>
+            <div class="email">
+                <h4 >Email Address</h4>
+                <input type="text" placeholder="Your email" id="email"class="thin">
+            </div>
+            <div class="phone">
+                <h4>Phone no.</h4>
+                <input type="text" placeholder="Your Phone no." id="phone"class="thin">
+            </div>
+            <div class="query">
+                <h4 >Query</h4>
+               <textarea name="query" id="query">Type Your Query Here</textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="work" id="work">
+                <label for="work">Want to work with me?</label>
+            </div>
+            <button class="submit">submit</button>
+        </div>
+    </div>
+    <div class="seperation"></div>
+   <footer>
+    <div class="footer">
+        <div class="social">
+            <ul>
+               <li><a href="#" class="logo"><img src="assets/linkedin-square-logo-24.png" alt=""></li> 
+               <li><a href="#" class="logo"><img src="assets/github-logo-24.png" alt=""></a></li> 
+               <li><a href="#" class="logo"><img src="assets/instagram-logo-24.png" alt=""></a></li> 
+               <li><a href="#" class="logo"><img src="assets/facebook-circle-logo-24.png" alt=""></a></li> 
+               <li><a href="#" class="logo"><img src="assets/twitter-logo-24.png" alt=""></a></li> 
+            </ul>
+           
+        </div>
+        <div class="otherlinks">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact me</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <div class="copyright">
+                © 2024 Tina| All Rights Reserved
+            </div>
+        </div>
+    </div>
+   </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Frontend-Web Developer', "UI/UX Designer"],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
